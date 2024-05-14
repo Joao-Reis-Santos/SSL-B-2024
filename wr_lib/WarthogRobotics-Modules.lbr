@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RASPBERRY_PI_PICO" urn="urn:adsk.eagle:footprint:27994881/1">
+<pad name="11" x="-8.89" y="0" drill="1" shape="long"/>
+<pad name="10" x="-8.89" y="2.54" drill="1" shape="long"/>
+<pad name="9" x="-8.89" y="5.08" drill="1" shape="long"/>
+<pad name="8" x="-8.89" y="7.62" drill="1" shape="long"/>
+<pad name="7" x="-8.89" y="10.16" drill="1" shape="long"/>
+<pad name="6" x="-8.89" y="12.7" drill="1" shape="long"/>
+<pad name="5" x="-8.89" y="15.24" drill="1" shape="long"/>
+<pad name="4" x="-8.89" y="17.78" drill="1" shape="long"/>
+<pad name="3" x="-8.89" y="20.32" drill="1" shape="long"/>
+<pad name="2" x="-8.89" y="22.86" drill="1" shape="long"/>
+<pad name="1" x="-8.89" y="25.4" drill="1" shape="long"/>
+<pad name="12" x="-8.89" y="-2.54" drill="1" shape="long"/>
+<pad name="13" x="-8.89" y="-5.08" drill="1" shape="long"/>
+<pad name="14" x="-8.89" y="-7.62" drill="1" shape="long"/>
+<pad name="15" x="-8.89" y="-10.16" drill="1" shape="long"/>
+<pad name="16" x="-8.89" y="-12.7" drill="1" shape="long"/>
+<pad name="17" x="-8.89" y="-15.24" drill="1" shape="long"/>
+<pad name="18" x="-8.89" y="-17.78" drill="1" shape="long" rot="R180"/>
+<pad name="19" x="-8.89" y="-20.32" drill="1" shape="long" rot="R180"/>
+<pad name="20" x="-8.89" y="-22.86" drill="1" shape="long" rot="R180"/>
+<pad name="30" x="8.89" y="0" drill="1" shape="long"/>
+<pad name="31" x="8.89" y="2.54" drill="1" shape="long"/>
+<pad name="32" x="8.89" y="5.08" drill="1" shape="long"/>
+<pad name="33" x="8.89" y="7.62" drill="1" shape="long"/>
+<pad name="34" x="8.89" y="10.16" drill="1" shape="long"/>
+<pad name="35" x="8.89" y="12.7" drill="1" shape="long"/>
+<pad name="36" x="8.89" y="15.24" drill="1" shape="long"/>
+<pad name="37" x="8.89" y="17.78" drill="1" shape="long"/>
+<pad name="38" x="8.89" y="20.32" drill="1" shape="long"/>
+<pad name="39" x="8.89" y="22.86" drill="1" shape="long"/>
+<pad name="40" x="8.89" y="25.4" drill="1" shape="long"/>
+<pad name="29" x="8.89" y="-2.54" drill="1" shape="long"/>
+<pad name="28" x="8.89" y="-5.08" drill="1" shape="long"/>
+<pad name="27" x="8.89" y="-7.62" drill="1" shape="long"/>
+<pad name="26" x="8.89" y="-10.16" drill="1" shape="long"/>
+<pad name="25" x="8.89" y="-12.7" drill="1" shape="long"/>
+<pad name="24" x="8.89" y="-15.24" drill="1" shape="long"/>
+<pad name="23" x="8.89" y="-17.78" drill="1" shape="long" rot="R180"/>
+<pad name="22" x="8.89" y="-20.32" drill="1" shape="long" rot="R180"/>
+<pad name="21" x="8.89" y="-22.86" drill="1" shape="long" rot="R180"/>
+<pad name="P$41" x="5.7" y="24.77" drill="2.1"/>
+<pad name="P$42" x="-5.7" y="24.77" drill="2.1"/>
+<pad name="P$43" x="5.7" y="-22.23" drill="2.1"/>
+<pad name="P$44" x="-5.7" y="-22.23" drill="2.1"/>
+<pad name="D2" x="0" y="-22.63" drill="1" shape="long" rot="R90"/>
+<pad name="D1" x="-2.54" y="-22.63" drill="1" shape="long" rot="R90"/>
+<pad name="D3" x="2.54" y="-22.63" drill="1" shape="long" rot="R90"/>
+<wire x1="-10.5" y1="-24.23" x2="10.5" y2="-24.23" width="0.127" layer="51"/>
+<wire x1="10.5" y1="-24.23" x2="10.5" y2="26.77" width="0.127" layer="51"/>
+<wire x1="10.5" y1="26.77" x2="4" y2="26.77" width="0.127" layer="51"/>
+<wire x1="4" y1="26.77" x2="-4" y2="26.77" width="0.127" layer="51"/>
+<wire x1="-4" y1="26.77" x2="-10.5" y2="26.77" width="0.127" layer="51"/>
+<wire x1="-10.5" y1="26.77" x2="-10.5" y2="-24.23" width="0.127" layer="51"/>
+<wire x1="-4" y1="28.07" x2="4" y2="28.07" width="0.127" layer="51"/>
+<wire x1="-4" y1="28.07" x2="-4" y2="26.77" width="0.127" layer="51"/>
+<wire x1="4" y1="28.07" x2="4" y2="26.77" width="0.127" layer="51"/>
+<wire x1="4" y1="26.77" x2="4.05" y2="26.75" width="0.127" layer="51"/>
+<wire x1="-10.5" y1="-24.23" x2="10.5" y2="-24.23" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-24.23" x2="10.5" y2="26.77" width="0.127" layer="21"/>
+<wire x1="10.5" y1="26.77" x2="-10.5" y2="26.77" width="0.127" layer="21"/>
+<wire x1="-10.5" y1="26.77" x2="-10.5" y2="-24.23" width="0.127" layer="21"/>
+<wire x1="-4" y1="26.75" x2="-4" y2="28.07" width="0.127" layer="21"/>
+<wire x1="-4" y1="28.07" x2="4" y2="28.07" width="0.127" layer="21"/>
+<wire x1="4" y1="28.07" x2="4" y2="26.85" width="0.127" layer="21"/>
+<text x="-9.4" y="-26.2" size="1.27" layer="25">&gt;NAME</text>
+<text x="0.1" y="-26.2" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RASPBERRY_PI_PICO" urn="urn:adsk.eagle:package:27994883/3" type="model">
+<packageinstances>
+<packageinstance name="RASPBERRY_PI_PICO"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="A_01" urn="urn:adsk.eagle:symbol:27994882/1">
+<pin name="UART1_TX/I2C0_SDA/SPI1_RX/GP8" x="-55.88" y="0" length="short"/>
+<pin name="RUN" x="55.88" y="0" length="short" rot="R180"/>
+<pin name="GP22" x="55.88" y="-2.54" length="short" rot="R180"/>
+<pin name="GND6" x="55.88" y="-5.08" length="short" rot="R180"/>
+<pin name="GP21/I2C0_SCL" x="55.88" y="-7.62" length="short" rot="R180"/>
+<pin name="GP20/I2C0_SDA" x="55.88" y="-10.16" length="short" rot="R180"/>
+<pin name="GP19/SPI0_TX/I2C1_SCL" x="55.88" y="-12.7" length="short" rot="R180"/>
+<pin name="GP18/SPI0_SCK/I2C1_SDA" x="55.88" y="-15.24" length="short" rot="R180"/>
+<pin name="GND5" x="55.88" y="-17.78" length="short" rot="R180"/>
+<pin name="GP17/SPI0_CSN/I2C0_SCL/UART0_RX" x="55.88" y="-20.32" length="short" rot="R180"/>
+<pin name="GP26/ADC0/I2C1_SDA" x="55.88" y="2.54" length="short" rot="R180"/>
+<pin name="GP27/ADC1/I2C1_SCL" x="55.88" y="5.08" length="short" rot="R180"/>
+<pin name="GND/AGND" x="55.88" y="7.62" length="short" rot="R180"/>
+<pin name="GP28/ADC2" x="55.88" y="10.16" length="short" rot="R180"/>
+<pin name="ADC_VREF" x="55.88" y="12.7" length="short" rot="R180"/>
+<pin name="3V3(OUT)" x="55.88" y="15.24" length="short" rot="R180"/>
+<pin name="3V3_EN" x="55.88" y="17.78" length="short" rot="R180"/>
+<pin name="GND7" x="55.88" y="20.32" length="short" rot="R180"/>
+<pin name="VSYS" x="55.88" y="22.86" length="short" rot="R180"/>
+<pin name="VBUS" x="55.88" y="25.4" length="short" rot="R180"/>
+<pin name="UART0_TX/I2C0_SDA/SPI0_RX/GP16" x="55.88" y="-22.86" length="short" rot="R180"/>
+<pin name="I2C1_SCL/SPIO_TX/GP7" x="-55.88" y="2.54" length="short"/>
+<pin name="I2C1_SDA/SPIO_SCK/GP6" x="-55.88" y="5.08" length="short"/>
+<pin name="UART1_RX/I2C0_SCL/SPI0_CSN/GP5" x="-55.88" y="10.16" length="short"/>
+<pin name="GND1" x="-55.88" y="7.62" length="short"/>
+<pin name="UART1_TX/I2C0_SDA/SPI0_RX/GP4" x="-55.88" y="12.7" length="short"/>
+<pin name="I2C1_SCL/SPI0_TX/GP3" x="-55.88" y="15.24" length="short"/>
+<pin name="I2C1_SDA/SPI0_SCK/GP2" x="-55.88" y="17.78" length="short"/>
+<pin name="GND0" x="-55.88" y="20.32" length="short"/>
+<pin name="UART0_RX/I2C_SCL/SPIO_CSN/GP1" x="-55.88" y="22.86" length="short"/>
+<pin name="UART0_TX/I2C0_SDA/SPI0_RX/GP0" x="-55.88" y="25.4" length="short"/>
+<pin name="UART1_RX/I2C0_SCL/SPI1_CSN/GP9" x="-55.88" y="-2.54" length="short"/>
+<pin name="GND2" x="-55.88" y="-5.08" length="short"/>
+<pin name="I2CS1_SDA/SPI1_SCK/GP10" x="-55.88" y="-7.62" length="short"/>
+<pin name="I2C1_SCL/SPI1_TX/GP11" x="-55.88" y="-10.16" length="short"/>
+<pin name="UART0_TX/I2C0_SDA/SPI1_RX/GP12" x="-55.88" y="-12.7" length="short"/>
+<pin name="UART0_RX/I2C0_SCL/SPI1_CSN/GP13" x="-55.88" y="-15.24" length="short"/>
+<pin name="GND3" x="-55.88" y="-17.78" length="short"/>
+<pin name="I2C1_SDA/SPI1_SCK/GP14" x="-55.88" y="-20.32" length="short"/>
+<pin name="I2C1_SCL/SPI1_TX/GP15" x="-55.88" y="-22.86" length="short"/>
+<pin name="SWCLK" x="-2.54" y="-27.94" length="short" rot="R90"/>
+<pin name="GND4" x="0" y="-27.94" length="short" rot="R90"/>
+<pin name="SWDIO" x="2.54" y="-27.94" length="short" rot="R90"/>
+<wire x1="-53.34" y1="-25.4" x2="53.34" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-25.4" x2="53.34" y2="27.94" width="0.254" layer="94"/>
+<wire x1="53.34" y1="27.94" x2="-53.34" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="27.94" x2="-53.34" y2="-25.4" width="0.254" layer="94"/>
+<text x="-10.16" y="30.48" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="30.48" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RASPBERRY_PI_PICO" prefix="A" urn="urn:adsk.eagle:component:27994884/3">
+<gates>
+<gate name="G$1" symbol="A_01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RASPBERRY_PI_PICO">
+<connects>
+<connect gate="G$1" pin="3V3(OUT)" pad="36"/>
+<connect gate="G$1" pin="3V3_EN" pad="37"/>
+<connect gate="G$1" pin="ADC_VREF" pad="35"/>
+<connect gate="G$1" pin="GND/AGND" pad="33"/>
+<connect gate="G$1" pin="GND0" pad="3"/>
+<connect gate="G$1" pin="GND1" pad="8"/>
+<connect gate="G$1" pin="GND2" pad="13"/>
+<connect gate="G$1" pin="GND3" pad="18"/>
+<connect gate="G$1" pin="GND4" pad="D2"/>
+<connect gate="G$1" pin="GND5" pad="23"/>
+<connect gate="G$1" pin="GND6" pad="28"/>
+<connect gate="G$1" pin="GND7" pad="38"/>
+<connect gate="G$1" pin="GP17/SPI0_CSN/I2C0_SCL/UART0_RX" pad="22"/>
+<connect gate="G$1" pin="GP18/SPI0_SCK/I2C1_SDA" pad="24"/>
+<connect gate="G$1" pin="GP19/SPI0_TX/I2C1_SCL" pad="25"/>
+<connect gate="G$1" pin="GP20/I2C0_SDA" pad="26"/>
+<connect gate="G$1" pin="GP21/I2C0_SCL" pad="27"/>
+<connect gate="G$1" pin="GP22" pad="29"/>
+<connect gate="G$1" pin="GP26/ADC0/I2C1_SDA" pad="31"/>
+<connect gate="G$1" pin="GP27/ADC1/I2C1_SCL" pad="32"/>
+<connect gate="G$1" pin="GP28/ADC2" pad="34"/>
+<connect gate="G$1" pin="I2C1_SCL/SPI0_TX/GP3" pad="5"/>
+<connect gate="G$1" pin="I2C1_SCL/SPI1_TX/GP11" pad="15"/>
+<connect gate="G$1" pin="I2C1_SCL/SPI1_TX/GP15" pad="20"/>
+<connect gate="G$1" pin="I2C1_SCL/SPIO_TX/GP7" pad="10"/>
+<connect gate="G$1" pin="I2C1_SDA/SPI0_SCK/GP2" pad="4"/>
+<connect gate="G$1" pin="I2C1_SDA/SPI1_SCK/GP14" pad="19"/>
+<connect gate="G$1" pin="I2C1_SDA/SPIO_SCK/GP6" pad="9"/>
+<connect gate="G$1" pin="I2CS1_SDA/SPI1_SCK/GP10" pad="14"/>
+<connect gate="G$1" pin="RUN" pad="30"/>
+<connect gate="G$1" pin="SWCLK" pad="D1"/>
+<connect gate="G$1" pin="SWDIO" pad="D3"/>
+<connect gate="G$1" pin="UART0_RX/I2C0_SCL/SPI1_CSN/GP13" pad="17"/>
+<connect gate="G$1" pin="UART0_RX/I2C_SCL/SPIO_CSN/GP1" pad="2"/>
+<connect gate="G$1" pin="UART0_TX/I2C0_SDA/SPI0_RX/GP0" pad="1"/>
+<connect gate="G$1" pin="UART0_TX/I2C0_SDA/SPI0_RX/GP16" pad="21"/>
+<connect gate="G$1" pin="UART0_TX/I2C0_SDA/SPI1_RX/GP12" pad="16"/>
+<connect gate="G$1" pin="UART1_RX/I2C0_SCL/SPI0_CSN/GP5" pad="7"/>
+<connect gate="G$1" pin="UART1_RX/I2C0_SCL/SPI1_CSN/GP9" pad="12"/>
+<connect gate="G$1" pin="UART1_TX/I2C0_SDA/SPI0_RX/GP4" pad="6"/>
+<connect gate="G$1" pin="UART1_TX/I2C0_SDA/SPI1_RX/GP8" pad="11"/>
+<connect gate="G$1" pin="VBUS" pad="40"/>
+<connect gate="G$1" pin="VSYS" pad="39"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27994883/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
